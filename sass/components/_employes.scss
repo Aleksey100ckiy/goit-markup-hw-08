@@ -1,0 +1,58 @@
+.benefits{
+    @extend %display_flex_row;
+    align-items: flex-start;
+    gap: 30px;
+}
+.benefits__card{
+    width: calc((100% - 90px) / 4);
+}
+.members{
+    @extend %display_flex_row;
+}
+.description-member{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.member-card{
+    width: calc( (100% - 90px ) / 4);
+    margin-right: 30px;
+    border: 1px solid color var(--text-colour);
+    background-color: var(--header-bcg-color);
+    
+    &:last-child{
+    margin-right: 0;
+}}
+
+.member-card{
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.engaged {
+    @extend %display_flex_row;
+}
+.engaged-element {
+    width: calc( (100% - 60px ) / 3);
+    margin-right: 30px;
+
+    &:last-child {
+    margin-right: 0;
+}}
+
+.name-members-list{
+    font-family: $font_primary;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--titles-colour);
+    margin-bottom: 10px;
+}
+
+.professions-list {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-colour);
+    margin-bottom: 16px;}

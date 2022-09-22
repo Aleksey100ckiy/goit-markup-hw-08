@@ -1,0 +1,32 @@
+.first-title {
+    font-family: $font_primary;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: var(--footer-bigtext-color);
+    margin-bottom: 30px;
+}
+
+.title-second-row {
+    font-family: $font_primary;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--titles-colour);
+    margin-bottom: 50px;
+}
+
+.title-third-row {
+    font-family: $font_primary;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--titles-colour);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

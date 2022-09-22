@@ -1,0 +1,11 @@
+$font_primary: 'Roboto', sans-serif;
+$font_logo: 'Raleway', sans-serif;
+
+%display_flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex_settings_main_cross_axis($main-axis:center, $cross-axis:center){
+    justify-content: $main-axis;align-items: $cross-axis;
+} 
