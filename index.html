@@ -20,7 +20,7 @@
   </head>
   <body>
     <header class="page-header border-header">
-      <div class="container page-header-container">
+      <div class="container page-header__container">
         <a class="link logo-site" href="index.html"
           ><span class="logo-first-color">Web</span> Studio</a
         >
@@ -36,6 +36,11 @@
               <a class="link site-nav__link" href="">Контакти</a></li>
           </ul>
         </nav>
+        <button type="button" class="open-mobile-menu-btn js-open-menu">
+          <svg class="open-mobile-menu-btn__icon" width="40px" height="40px">
+            <use href="./images/sprite.svg#icon-menu-burger"></use>
+          </svg>
+        </button>
         <ul class="list header-nav">
           <li class="">
             <a class="link navigation navig" href="mailto:info@devstudio.com"
@@ -53,8 +58,28 @@
           </li>
         </ul>
       </div>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu__container">
+          <button type="button" class="mobile-menu__close-btn js-close-menu">
+            <svg class="mobile-menu__close-btn-icon"> 
+              <use href="./images/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="list">
+            <li class="link">
+              <a href="">Студія</a>
+            </li>
+            <li class="link">
+              <a href="">Портфоліо</a>
+            </li>
+            <li class="link">
+              <a href="">Контакти</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <main>
+    <!-- <main>
       <section class="section main-theme">
         <div class="container hero">
           <h1 class="first-title">
@@ -661,6 +686,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>
