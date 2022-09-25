@@ -1,3 +1,11 @@
+@media screen and (min-width: 0px) {
+    .border-header {
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(236, 236, 236, 1);
+    border-bottom-style: solid;
+    }
+}
+@media screen and (min-width: 480px) {}
 .site-nav {
     display: none;
 
@@ -22,6 +30,48 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (min-width: 768px) {
+    .site-nav {
+        display: block;}
+    .header-nav {
+        display: block;}
+    .open-mobile-menu-btn {
+        display: none;
+    }
+    .site-nav{
+        display: flex;}
+    .header-nav{
+    display: flex;
+    flex-direction: row;;
+    margin-left: auto;
+    gap: 50px;}
+
+    .site-nav .site-nav__item{
+    padding-top: 34px;
+    padding-bottom: 34px;}
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+// }
+
+        
+// .site-nav .site-nav__item + .site-nav__item{
+//             margin-left: 50px;
+//         }
+// .navig{
+//     @extend %display_flex_row;
+//     @include flex_settings_main_cross_axis ();
+//     align-items: center;
+//     justify-content: center;
+//         }
+
+
 // .page-header{
 //     background-color: var(--header-bcg-color);
 //     }
@@ -55,27 +105,23 @@
 //         // justify-content: center;
 //     }
     
-//     .logo-site{
-//         margin-right: 94px;
-//     }
-//     .link.logo-site{
-//         font-family: $font_logo; 
-//         font-weight: 700;
-//         font-size: 26px;
-//         line-height: 1.19;
-//         color: #000000;}
+.logo-site{
+        margin-right: 0;
+}
+.link.logo-site{
+        font-family: $font_logo; 
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.19;
+        color: #000000;}
     
-//     .link{
-//         transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
-//     }
-//     .logo-first-color{
-//     color:var(--logo-button-color);
-//     }
-//     .border-header {
-//         border-bottom-width: 1px;
-//         border-bottom-color: rgba(236, 236, 236, 1);
-//         border-bottom-style: solid;
-//     }
+.link{
+    transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
+}
+.logo-first-color{
+    color:var(--logo-button-color);
+}
+    
 //     .header-nav{
 //         @extend %display_flex_row;
 //         @include flex_settings_main_cross_axis ();
