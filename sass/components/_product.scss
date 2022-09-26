@@ -67,28 +67,4 @@
     line-height: 28px;
     letter-spacing: 0.03em;
 }
-.engaged-img-wrapper{
-    position: relative;
-}
-.engaged-wrapper {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 70px;
-    width: 100%;
-    line-height: 1.55;
-    background-color: rgba(47, 48, 58, 0.8);
-    color: var(--footer-bigtext-color);
-    overflow: auto;
-}
-.engaged-wrapper {
-    display: flex;
-    @include flex_settings_main_cross_axis ();
-    font-family: $font_primary;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-style: normal;
-}
+

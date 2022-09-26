@@ -1,11 +1,4 @@
-.benefits{
-    @extend %display_flex_row;
-    align-items: flex-start;
-    gap: 30px;
-}
-.benefits__card{
-    width: calc((100% - 90px) / 4);
-}
+
 .members{
     @extend %display_flex_row;
 }
