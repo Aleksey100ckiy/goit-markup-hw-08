@@ -163,53 +163,61 @@
         <div class="container">
           <h2 class="title-second-row">Чим ми займаємося</h2>
           <ul class="list engaged">
-            <li class="engaged-element">
-              <div class="engaged-img-wrapper">
+            <li class="engaged__element">
+              <div class="engaged__img-wrapper">
                 <img
+                  srcset="./images/box-1@2x.jpg 2x"
                   src="./images/box-1.jpg"
                   alt="writing code"
                   width="370"
                   height="294"
                 />
-                <p class="engaged-wrapper">Десктопні додатки</p>
+                <p class="engaged__wrapper">Десктопні додатки</p>
               </div>
             </li>
-            <li class="engaged-element">
-              <div class="engaged-img-wrapper">
+            <li class="engaged__element">
+              <div class="engaged__img-wrapper">
                 <img
+                  srcset="./images/box-2@2x.jpg 2x"
                   src="./images/box-2.jpg"
                   alt="adaptation for gadgets"
                   width="370"
                   height="294"
                 />
-                <p class="engaged-wrapper">Мобільні додатки</p>
+                <p class="engaged__wrapper">Мобільні додатки</p>
               </div>
             </li>
-            <li class="engaged-element">
-              <div class="engaged-img-wrapper">
+            <li class="engaged__element">
+              <div class="engaged__img-wrapper">
                 <img
+                  srcset="./images/box-3@2x.jpg 2x"
                   src="./images/box-3.jpg"
                   alt="choice of color theme"
                   width="370"
                   height="294"
                 />
-                <p class="engaged-wrapper">Дизайнерські рішення</p>
+                <p class="engaged__wrapper">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
-      <!-- <section class="section third-section">
+      <section class="section third-section">
         <div class="container">
           <h2 class="title-second-row">Наша команда</h2>
           <ul class="members list">
             <li class="member-card element">
-              <img
+              <picture>
+                <source srcset="./images/ihor_denyanenko_desc@1x.jpg 1x, ./images/ihor_denyanenko_desc@2x.jpg 2x" media="(min-width: 1200px)">
+                <source srcset="./images/ihor_denyanenko_tabl@1x.jpg 1x, ./images/ihor_denyanenko_tabl@2x.jpg 2x" media="(min-width: 768px)"> 
+                <source srcset="./images/ihor_denyanenko_tel@1x.jpg 1x, ./images/ihor_denyanenko_tel@2x.jpg 2x " media="(max-width: 767px)">  
+                <img
                 src="./images/ihor.jpg"
                 alt="ihor_denyanenko"
                 width="270"
                 height="260"
-              />
+                />
+              </picture>
               <div class="description-member">
                 <h3 class="name-members-list">Ігор Дем'яненко</h3>
                 <p class="professions-list" lang="en">Product Designer</p>
@@ -270,12 +278,17 @@
               </div>
             </li>
             <li class="member-card">
-              <img
+              <picture>
+                <source srcset="./images/olha_desc@1x.jpg 1x, ./images/olha_desc@2x.jpg 2x" media="(min-width: 1200px)">
+                <source srcset="./images/olha_tabl@1x.jpg 1x, ./images/olha_tabl@2x.jpg 2x" media="(min-width: 768px)"> 
+                <source srcset="./images/olha_tel@1x.jpg 1x, ./images/olha_tel@2x.jpg 2x " media="(max-width: 767px)">
+                <img
                 src="./images/olha.jpg"
                 alt="olha_repina"
                 width="270"
                 height="260"
-              />
+                />
+              </picture>
               <div class="description-member">
                 <h3 class="name-members-list">Ольга Рєпіна</h3>
                 <p class="professions-list" lang="en">Frontend Developer</p>
@@ -336,12 +349,17 @@
               </div>
             </li>
             <li class="member-card">
-              <img
+              <picture>
+                <source srcset="./images/mykola_desc@1x.jpg 1x, ./images/mykola_desc@2x.jpg 2x" media="(min-width: 1200px)">
+                <source srcset="./images/mykola_tabl@1x.jpg 1x, ./images/mykola_tabl@2x.jpg 2x" media="(min-width: 768px)"> 
+                <source srcset="./images/mykola_tel@1x.jpg 1x, ./images/mykola_tel@2x.jpg 2x " media="(max-width: 767px)">
+                <img
                 src="./images/mykola.jpg"
                 alt="mykola_tarasov"
                 width="270"
                 height="260"
-              />
+                />
+              </picture>
               <div class="description-member">
                 <h3 class="name-members-list">Микола Тарасов</h3>
                 <p class="professions-list" lang="en">Marketing</p>
@@ -402,12 +420,17 @@
               </div>
             </li>
             <li class="member-card">
-              <img
+              <picture>
+                <source srcset="./images/mikhail_desc@1x.jpg 1x, ./images/mikhail_desc@2x.jpg 2x" media="(min-width: 1200px)">
+                <source srcset="./images/mikhail_tabl@1x.jpg 1x, ./images/mikhail_tabl@2x.jpg 2x" media="(min-width: 768px)"> 
+                <source srcset="./images/mikhail_tel@1x.jpg 1x, ./images/mikhail_tel@2x.jpg 2x " media="(max-width: 767px)">
+                <img
                 src="./images/mikhail.jpg"
                 alt="mykhail_ermakov"
                 width="270"
                 height="260"
-              />
+                />
+              </picture>
               <div class="description-member">
                 <h3 class="name-members-list">Михайло Єрмаков</h3>
                 <p class="professions-list" lang="en">UI Designer</p>
@@ -470,7 +493,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="title-second-row">Постійні клієнти</h2>
           <ul class="client-list">
@@ -699,7 +722,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>  -->
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

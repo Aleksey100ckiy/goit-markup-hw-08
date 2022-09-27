@@ -7,10 +7,10 @@
     background-size: contain;
     background-size: 480px 400px;
     background-repeat: no-repeat;
-    margin-bottom: 60px;
-}
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), 
-(min-resolution: 2dppx) {
+    margin-bottom: 60px;}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (min-width: 767px), 
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .main-theme {
     background-image: url('/images/header-img-tel@2x.jpg');
   }
@@ -23,8 +23,8 @@
     height: 400px;
     }
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), 
-(min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), 
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .main-theme {
     background-image: url('/images/header-img-tabl@2x.jpg');
   }
@@ -37,8 +37,8 @@
     height: 600px;
     }
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), 
-(min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), 
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .main-theme {
     background-image: url('/images/header-img-desc@2x.jpg');
   }
@@ -132,10 +132,13 @@
     .section.about{
         padding-top: 0;
     }
-    .engaged-img-wrapper{
+    .engaged {
+        display: flex;
+        flex-direction: row;}
+    .engaged__img-wrapper{
         position: relative;
     }
-    .engaged-wrapper {
+    .engaged__wrapper {
         position: absolute;
         right: 0;
         bottom: 0;
@@ -145,7 +148,8 @@
         background-color: rgba(47, 48, 58, 0.8);
         color: var(--footer-bigtext-color);
         overflow: auto;}
-    .engaged-wrapper {
+
+    .engaged__wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -156,6 +160,13 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         font-style: normal;}
+    .engaged__element {
+        width: calc( (100% - 60px ) / 3);
+        margin-right: 30px;
+        
+        &:last-child {
+        margin-right: 0;
+        }}
 }
 
 
