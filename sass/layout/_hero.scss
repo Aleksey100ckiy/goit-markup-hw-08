@@ -107,6 +107,9 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         background-color: var(--portfolio-bottom-color);
         margin-bottom: 30px;
     }
+    .about{
+        margin-bottom: 60px;
+    }
 }
 @media screen and (min-width: 768px) {
     .benefits{
@@ -128,6 +131,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     }
     .about{
         padding-top: 0;
+        margin-bottom: 94px;
     }
     .section.about{
         padding-top: 0;
@@ -191,9 +195,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 //     display: flex;
 //     background-color: var(--firssecond-bcg-color);
 // }
-// .third-section{
-//     background-color: var(--portfolio-bottom-color);
-// }
+
 
 // .client-list-element{
 // width: calc( (100% - 150px) / 6);
