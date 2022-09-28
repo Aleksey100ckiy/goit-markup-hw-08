@@ -12,20 +12,21 @@
         flex-wrap: wrap;
         justify-content: start;
         gap: 8px;
-        align-items: baseline;}
+        align-items: baseline;
+        margin-top: 60px;
+        margin-bottom: 40px;}
+    
 }
 
 @media screen and (min-width: 768px) {
-    .portfolio-button{
-        margin-top: 60px;
-        margin-bottom: 30px;}
     .portfolio-button-list {
         flex-wrap: nowrap;
         justify-content: center;
+        margin-bottom: 30px
     }
 }
 @media screen and (min-width: 1200px) {
-    .portfolio-button{
+    .portfolio-button-list{
         margin-top: 94px;
         margin-bottom: 34px;}        
 }
