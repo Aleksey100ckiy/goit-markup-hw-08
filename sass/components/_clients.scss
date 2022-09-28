@@ -5,7 +5,8 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 30px;}
+        gap: 30px;
+        margin-bottom: 60px;}
 
     .client-list-element{
         width: calc( (100% - 60px) / 2);
@@ -36,17 +37,16 @@
 }
   @media screen and (min-width: 768px) { 
     .client-list-element{
-        width: calc( (100% - 90px) / 3);
-        }
+        width: calc( (100% - 90px) / 3);}
   }
   @media screen and (min-width: 1200px) {
     .client-list{
         flex-wrap: nowrap;
+        margin-bottom: 94px;
     }
     .client-list-element{
-        width: calc( (100% - 160px) / 6);
-        }
-  }
+        width: calc( (100% - 160px) / 6);}
+}
 
 
    
