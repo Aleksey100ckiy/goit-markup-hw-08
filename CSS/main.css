@@ -219,6 +219,9 @@ a {
   color: var(--titles-colour);
   margin-bottom: 32px;
 }
+.mobile-menu__nav-link:hover {
+  color: var(--logo-button-color);
+}
 
 .mobile-menu__nav-link:last-child {
   margin-bottom: 0;
@@ -253,6 +256,9 @@ a {
   border: 0;
   padding: 0;
   line-height: 0;
+}
+.mobile-menu__close-btn:hover .mobile-menu__close-btn-icon {
+  fill: var(--logo-button-color);
 }
 
 .mobile-menu__close-btn-icon {
@@ -447,11 +453,9 @@ a {
 }
 .main-theme {
   background-image: url("/images/header-img-tel@1x.jpg");
-  background-position: center top;
-  width: 480px;
+  background-position: center;
   height: 400px;
   background-size: contain;
-  background-size: 480px 400px;
   background-repeat: no-repeat;
   margin-bottom: 60px;
 }

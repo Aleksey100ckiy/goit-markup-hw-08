@@ -20,6 +20,7 @@
 padding-top: 48px;
 margin-bottom: 302px;
 }
+
 .mobile-menu__nav-link{
 font-family: 'Roboto';
 font-style: normal;
@@ -30,8 +31,11 @@ letter-spacing: 0.02em;
 text-decoration: none;
 color: var(--titles-colour);
 margin-bottom: 32px;
-
+&:hover {
+color: var(--logo-button-color);
+} 
 }
+
 .mobile-menu__nav-link:last-child {
     margin-bottom: 0;
 }
@@ -63,7 +67,10 @@ color: var(--logo-button-color);
     border: 0;
     padding: 0;
     line-height: 0;
-}
+    &:hover .mobile-menu__close-btn-icon {
+        fill: var(--logo-button-color);}
+    }
+
 .mobile-menu__close-btn-icon {
     width: 40px;
     height: 40px;
