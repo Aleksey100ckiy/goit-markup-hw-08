@@ -1,0 +1,26 @@
+@media screen and (min-width: 0px) {
+    .portfolio-hero{
+        background-color: var(--header-bcg-color);}
+    .jobs-description-list{
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: var(--text-colour);
+        }
+    .portfolio-titles-list{
+        font-family: $font_primary;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--titles-colour);
+        margin-bottom: 4px;}
+}
+.portfolio-icons {
+    display: flex;
+    flex-direction: column;
+.product-img-wrapper {
+    width: 100%;
+        
+    }
+}
