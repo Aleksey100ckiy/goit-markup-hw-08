@@ -1,32 +1,36 @@
-.portfolio-hero{
-    background-color: var(--header-bcg-color);
+@media screen and (min-width: 0px) {
+    .portfolio__button{
+        border:0;
+        border-radius: 4px;
+        padding: 6px 22px;}
+    .indent{
+        margin-bottom: 50px;}
+
+    .portfolio__button-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 8px;
+        align-items: baseline;}
 }
-.portfolio-titles-list{
-    font-family: $font_primary;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--titles-colour);
-    margin-bottom: 4px;
-}
-.jobs-description-list{
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
-    color: var(--text-colour);
-}
-.portfolio-button-list{
-    @extend %display_flex_row;
-    justify-content: center;
-    gap: 8px;
-    align-items: baseline;
-}
-.portfolio-button{
-    border:0;
-    border-radius: 4px;
-    padding: 6px 22px;
-}
-.indent{
-    margin-bottom: 50px;
-}
+// .portfolio-hero{
+//     background-color: var(--header-bcg-color);
+// }
+// .portfolio-titles-list{
+//     font-family: $font_primary;
+//     font-weight: 700;
+//     font-size: 18px;
+//     line-height: 2;
+//     letter-spacing: 0.06em;
+//     color: var(--titles-colour);
+//     margin-bottom: 4px;
+// }
+// .jobs-description-list{
+//     font-size: 16px;
+//     line-height: 1.87;
+//     letter-spacing: 0.03em;
+//     color: var(--text-colour);
+// }
+
+
