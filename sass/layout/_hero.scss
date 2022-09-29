@@ -17,7 +17,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .main-theme {
     background-image: url('/images/header-img-tabl@1x.jpg');
     background-size: 768px 400px;
-    width: 768px;
+    // width: 768px;
     height: 400px;
     }
 }
@@ -31,7 +31,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .main-theme {
     background-image: url('/images/header-img-desc@1x.jpg');
     background-size: 1200px 600px;
-    width: 1200px;
+    // width: 1200px;
     height: 600px;
     }
 }
@@ -42,7 +42,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   }
 }
 // 0-1199 px/////////////////////////////////////////// 
-@media screen and (min-width: 0px) and (max-width: 1199px) {
+@media screen and (min-width: 0) {
     .first-title { 
         font-family: 'Roboto';
         font-style: normal;
@@ -60,6 +60,9 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     }
     .about {
         display: none;
+    }
+    .title-second-row{
+        padding-top: 60px;
     }
 }
 
@@ -94,6 +97,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         align-items: center;
         justify-content: stretch;
         gap: 30px;
+        margin-bottom: 60px;
     }
     .benefit__box{
         display: flex;

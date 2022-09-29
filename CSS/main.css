@@ -469,7 +469,6 @@ a {
   .main-theme {
     background-image: url("/images/header-img-tabl@1x.jpg");
     background-size: 768px 400px;
-    width: 768px;
     height: 400px;
   }
 }
@@ -482,7 +481,6 @@ a {
   .main-theme {
     background-image: url("/images/header-img-desc@1x.jpg");
     background-size: 1200px 600px;
-    width: 1200px;
     height: 600px;
   }
 }
@@ -491,7 +489,7 @@ a {
     background-image: url("/images/header-img-desc@2x.jpg");
   }
 }
-@media screen and (min-width: 0px) and (max-width: 1199px) {
+@media screen and (min-width: 0) {
   .first-title {
     font-family: "Roboto";
     font-style: normal;
@@ -510,6 +508,9 @@ a {
   }
   .about {
     display: none;
+  }
+  .title-second-row {
+    padding-top: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -543,6 +544,7 @@ a {
     align-items: center;
     justify-content: stretch;
     gap: 30px;
+    margin-bottom: 60px;
   }
   .benefit__box {
     display: flex;
@@ -625,6 +627,7 @@ a {
   .members {
     display: flex;
     flex-direction: column;
+    padding-bottom: 60px;
   }
   .description-member {
     padding-top: 30px;
@@ -756,8 +759,6 @@ a {
 .page-footer {
   background-color: var(--footer-bcg-color);
   color: var(--footer-bigtext-color);
-  justify-content: center;
-  align-items: baseline;
 }
 
 .page-footer__main {
@@ -766,7 +767,7 @@ a {
   justify-content: center;
   align-items: center;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 90px;
   column-gap: 70px;
 }
 
@@ -861,6 +862,22 @@ a {
   flex-direction: column;
 }
 
+.firm-address {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  padding-right: 0;
+}
+
+.footer-nav-link {
+  color: var(--footer-navtext-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-links-list > li:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
 .backdrop {
   position: fixed;
   top: 0;
@@ -1073,6 +1090,14 @@ a {
   cursor: pointer;
 }
 
+.modal-link-contract {
+  color: var(--logo-button-color);
+  text-decoration: underline;
+}
+.modal-link-contract:hover {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 0px) {
   .portfolio-hero {
     background-color: var(--header-bcg-color);
@@ -1122,10 +1147,13 @@ a {
   border-left-width: 1px;
   border-left-style: solid;
   border-left-color: rgb(238, 238, 238);
+  flex-grow: 1;
 }
 
 .product-link {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   transition: box-shadow var(--transition-dur-and-func);
 }
 .product-link:hover, .product-link:focus {

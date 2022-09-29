@@ -45,10 +45,13 @@
     border-left-width: 1px;
     border-left-style: solid;
     border-left-color:rgba(238, 238, 238, 1);
-    
+    flex-grow: 1;    
 }
 .product-link{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
     transition: box-shadow var(--transition-dur-and-func);
 
     &:hover,
