@@ -207,6 +207,16 @@ a {
   color: var(--logo-button-color);
 }
 
+.checkbox__text-settings {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+  color: var(--text-colour);
+}
+
 .mobile-menu__container {
   display: flex;
   flex-direction: column;
@@ -697,7 +707,14 @@ a {
   .member-card {
     width: calc((100% - 30px) / 2);
   }
+  .member-card:last-child {
+    margin-bottom: 30px;
+  }
 }
+.title-third-row {
+  text-align: inherit;
+}
+
 @media screen and (min-width: 1200px) {
   .members {
     flex-direction: row;
@@ -888,6 +905,12 @@ a {
   color: var(--footer-navtext-color);
 }
 
+@media screen and (min-width: 768px) {
+  .page-footer__main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer-links-list > li:not(:last-child) {
     margin-bottom: 9px;

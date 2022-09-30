@@ -15,7 +15,15 @@
 .mobile-menu__nav-link--current{
 color:var(--logo-button-color);
 }
-
+.checkbox__text-settings {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.66;
+    letter-spacing: 0.03em;
+    color: var(--text-colour);
+}
 .mobile-menu__container{
     display: flex; 
     flex-direction: column; 

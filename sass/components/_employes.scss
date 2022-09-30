@@ -53,9 +53,17 @@
         &:nth-child(2n){
         margin-right: 0;}
     }
+
     .member-card {
         width: calc( (100% - 30px ) / 2);
+        
+        &:last-child{
+        margin-bottom: 30px;
+        }
     }}
+    .title-third-row {
+        text-align: inherit;
+    }
 
     @media screen and (min-width: 1200px) {
         .members {
