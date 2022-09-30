@@ -10,12 +10,12 @@
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (min-width: 767px), 
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .main-theme {
-    background-image: url('/images/header-img-tel@2x.jpg');
+    background-image: url('../images/header-img-tel@2x.jpg');
   }
 }
 @media screen and (min-width: 768px) { 
     .main-theme {
-    background-image: url('/images/header-img-tabl@1x.jpg');
+    background-image: url('../images/header-img-tabl@1x.jpg');
     background-size: 768px 400px;
     // // width: 768px;
     // height: 400px;
@@ -24,12 +24,12 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), 
 screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .main-theme {
-    background-image: url('/images/header-img-tabl@2x.jpg');
+    background-image: url('../images/header-img-tabl@2x.jpg');
   }
 }
 @media screen and (min-width: 1200px) { 
     .main-theme {
-    background-image: url('/images/header-img-desc@1x.jpg');
+    background-image: url('../images/header-img-desc@1x.jpg');
     background-size: 1200px 600px;
     // width: 1200px;
     height: 600px;
@@ -38,7 +38,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), 
 screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .main-theme {
-    background-image: url('/images/header-img-desc@2x.jpg');
+    background-image: url('../images/header-img-desc@2x.jpg');
   }
 }
 // 0-1199 px/////////////////////////////////////////// 
