@@ -2,10 +2,10 @@
 .main-theme {
     background-image: url('/images/header-img-tel@1x.jpg');
     background-position: center;
-    height: 400px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 60px;}
+    margin-bottom: 60px;
+    padding: 118px 0;}
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (min-width: 767px), 
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
@@ -52,7 +52,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        padding-top: 118px;
         margin-bottom: 30px;}
     .button{
         margin-left: auto;
