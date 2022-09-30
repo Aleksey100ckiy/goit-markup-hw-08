@@ -804,6 +804,7 @@ a {
 .page-footer__wrapper {
   display: flex;
   flex-direction: column;
+  margin-bottom: 60px;
 }
 
 .block {
@@ -909,9 +910,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  .page-footer__wrapper {
-    margin-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
