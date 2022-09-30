@@ -452,7 +452,7 @@ a {
   }
 }
 .main-theme {
-  background-image: url("/images/header-img-tel@1x.jpg");
+  background-image: url("../images/header-img-tel@1x.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -469,7 +469,6 @@ a {
   .main-theme {
     background-image: url("/images/header-img-tabl@1x.jpg");
     background-size: 768px 400px;
-    height: 400px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
