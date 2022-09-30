@@ -4,7 +4,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 60px;
     padding: 118px 0;}
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (min-width: 767px), 
@@ -15,7 +14,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 @media screen and (min-width: 768px) { 
     .main-theme {
-    background-image: url('../images/header-img-tabl@1x.jpg');
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url("../images/header-img-tabl@1x.jpg");
     background-size: 768px 400px;
     // // width: 768px;
     // height: 400px;
@@ -24,12 +23,12 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), 
 screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .main-theme {
-    background-image: url('../images/header-img-tabl@2x.jpg');
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url("../images/header-img-tabl@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) { 
     .main-theme {
-    background-image: url('../images/header-img-desc@1x.jpg');
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url("../images/header-img-desc@1x.jpg");
     background-size: 1200px 600px;
     // width: 1200px;
     height: 600px;
@@ -38,7 +37,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), 
 screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .main-theme {
-    background-image: url('../images/header-img-desc@2x.jpg');
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url("../images/header-img-desc@2x.jpg");
   }
 }
 // 0-1199 px/////////////////////////////////////////// 
@@ -60,10 +59,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .about {
         display: none;
     }
-    .title-second-row{
-        padding-top: 60px;
     }
-}
 
 @media screen and (min-width: 1200px) {
     .main-theme {
@@ -96,7 +92,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         align-items: center;
         justify-content: stretch;
         gap: 30px;
-        margin-bottom: 60px;
     }
     .benefit__box{
         display: flex;

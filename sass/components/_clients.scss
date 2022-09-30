@@ -1,15 +1,14 @@
-@media screen and (min-width: 0px) { 
+
     .client-list{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 30px;
-        margin-bottom: 60px;}
+        gap: 30px;}
 
     .client-list-element{
-        width: calc( (100% - 60px) / 2);
+        width: calc( (100% - 30px) / 2);
         }
 
     .client-list-box {
@@ -34,10 +33,10 @@
     .client-list-icon{
         fill: var(--icons-color);
         transition: fill var(--transition-dur-and-func);}
-}
+
   @media screen and (min-width: 768px) { 
     .client-list-element{
-        width: calc( (100% - 90px) / 3);}
+        width: calc( (100% - 60px) / 3);}
   }
   @media screen and (min-width: 1200px) {
     .client-list{

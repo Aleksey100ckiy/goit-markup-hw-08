@@ -67,7 +67,7 @@
           </button>
           <ul class="mobile-menu__nav-list">
             <li class="mobile-menu__nav-link">
-              <a href="./index.html">Студія</a>
+              <a class="mobile-menu__nav-link--current" href="./index.html">Студія</a>
             </li>
             <li class="mobile-menu__nav-link">
               <a href="./portfolio.html">Портфоліо</a>
@@ -537,7 +537,7 @@
     </main>
      <footer class="page-footer">
       <div class="container page-footer__main">
-        <div class="page-footer">
+        <div class="page-footer__wrapper">
           <a class="link footer-logo-link block" href="index.html">
             <span class="logo-first-color">Web</span>Studio</a
           >
@@ -699,17 +699,17 @@
               required
               name="checkbox-agreement"
             />
-            <svg class="modal-form-author-checkbox">
-              <use
+            <span>
+              <svg class="modal-form-author-checkbox">
+                <use
                 class="modal-form-own-checkbox-icon"
-                href="./images/sprite.svg#icon-vector"
-              ></use>
-            </svg>
-            Погоджуюся з розсилкою та приймаю &nbsp;<a
+                href="./images/sprite.svg#icon-vector"></use>
+              </svg>
+              Погоджуюся з розсилкою та приймаю &nbsp;<a
               href=""
               class="modal-link-contract"
-              >Умови договору</a
-            >
+              >Умови договору</a>
+            </span>
           </label>
           <button type="submit" class="modal-button-submit">Відправити</button>
         </form>

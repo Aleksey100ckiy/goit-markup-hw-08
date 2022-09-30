@@ -1,9 +1,7 @@
 
-@media screen and (min-width: 0px) {
     .members{
         display: flex;
-        flex-direction: column;
-        padding-bottom: 60px;}
+        flex-direction: column;}
     .description-member{
         padding-top: 30px;
         padding-bottom: 30px;
@@ -23,6 +21,7 @@
         margin-bottom: 30px;   
         &:last-child{
         margin-right: 0;
+        margin-bottom: 0;
         }}
     .professions-list {
         font-size: 16px;
@@ -43,7 +42,6 @@
         letter-spacing: 0.03em;
         color:var(--titles-colour);
         margin-bottom: 10px;}
-}
 
 @media screen and (min-width: 768px) and (max-width:1199px) {
     .members{

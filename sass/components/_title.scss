@@ -7,16 +7,16 @@
     color: var(--footer-bigtext-color);
     margin-bottom: 30px;
 }
-
 .title-second-row {
-    font-family: $font_primary;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.66;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--titles-colour);
-    margin-bottom: 50px;
+font-family: $font_primary;;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 1.178;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--titles-colour);
+margin-bottom: 30px;
 }
 
 .title-third-row {
@@ -26,7 +26,17 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
     color: var(--titles-colour);
-    text-transform: uppercase;
     margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+// .title-second-row {
+//     font-size: 36px;
+//     line-height: 1.66;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     color: var(--titles-colour);
+//     margin-bottom: 50px;
+// }
 }

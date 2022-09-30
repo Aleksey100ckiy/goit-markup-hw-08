@@ -12,13 +12,22 @@
     transition: opacity var(--transition-dur-and-func), visibility var(--transition-dur-and-func);
 }
 
-.mobile-menu__container{
-   position: relative;
-   padding-left: 40px; 
+.mobile-menu__nav-link--current{
+color:var(--logo-button-color);
 }
+
+.mobile-menu__container{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    position: relative;
+    padding-left: 40px; 
+    padding: 48px 40px; 
+    height: 100%;  
+}
+
 .mobile-menu__nav-list{
-padding-top: 48px;
-margin-bottom: 302px;
+margin-bottom: auto;
 }
 
 .mobile-menu__nav-link{
@@ -43,7 +52,9 @@ color: var(--logo-button-color);
 .mobile-menu__list {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     column-gap: 10px;
+    row-gap: 20px;
 }
 .mobile-menu__link {
     border-right: 1px solid rgba(33, 33, 33, 0.2);
