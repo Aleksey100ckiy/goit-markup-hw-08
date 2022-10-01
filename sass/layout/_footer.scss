@@ -20,12 +20,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    column-gap: 70px;}
+    row-gap: 70px;}
 
 .page-footer__wrapper{
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;
 }
 
 .block{
@@ -36,8 +35,6 @@
 .footer-adress-link{
     color:var(--footer-bigtext-color);}
 
-.footer-social-element{
-        margin-bottom: 60px;}
 
 .footer-header{
     text-transform: uppercase;
@@ -56,6 +53,9 @@
     display: flex;
     justify-content: center;
     column-gap: 10px;}
+.link-footer {
+    margin-bottom: 8px;
+}
 
 .icone-send{
     fill: var(--footer-bigtext-color);
@@ -121,6 +121,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    row-gap: 0;
+    gap: 60px;
+
 }
 // .page-footer__wrapper{
 //     margin-bottom: 60px;

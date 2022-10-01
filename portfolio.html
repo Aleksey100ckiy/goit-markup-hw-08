@@ -67,13 +67,13 @@
           </button>
           <ul class="mobile-menu__nav-list">
             <li class="mobile-menu__nav-link">
-              <a href="./index.html">Студія</a>
+              <a class="#" href="./index.html">Студія</a>
             </li>
             <li class="mobile-menu__nav-link">
-              <a href="./portfolio.html">Портфоліо</a>
+              <a class="mobile-menu__nav-link--current" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="mobile-menu__nav-link">
-              <a href="">Контакти</a>
+              <a class="#" href="">Контакти</a>
             </li>
           </ul>
           <ul class="mobile-menu__contact-list">
@@ -148,7 +148,7 @@
                     alt="bassketball"
                     />
                   </picture>
-                  <p class="overlay"></p></div>
+                  <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p></div>
                 <div class="product-card">
                   <h2 class="portfolio-titles-list" lang="en">
                     Постер New Orlean vs Golden Star
@@ -168,7 +168,7 @@
                     src="./images/seafood.jpg"
                     alt="logo-fish"/>
                   </picture>
-                  <p class="overlay"></p>
+                  <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
                 <div class="product-card">
                   <h2 class="portfolio-titles-list" lang="en">
@@ -189,7 +189,7 @@
                     src="./images/prime.jpg"
                     alt="headfons"/>
                   </picture>
-                  <p class="overlay"></p>
+                  <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
                 <div class="product-card">
                   <h2 class="portfolio-titles-list" lang="en">Проєкт Prime</h2>
@@ -208,7 +208,7 @@
                     src="./images/boxes.jpg"
                     alt="boxes"/>
                   </picture>
-                  <p class="overlay"></p>
+                  <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
                 <div class="product-card">
                   <h2 class="portfolio-titles-list" lang="en">Проєкт Boxes</h2>
@@ -227,7 +227,7 @@
                     src="./images/monitor.jpg"
                     alt="monitor"/>
                   </picture>
-                  <p class="overlay"></p>
+                  <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
                 <div class="product-card">
                   <h2 class="portfolio-titles-list" lang="en">
@@ -248,7 +248,7 @@
                     src="./images/limited-edition.jpg"
                     alt="book"/>
                   </picture>
-                  <p class="overlay"></p>
+                  <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
                 <div class="product-card">
                   <h2 class="portfolio-titles-list" lang="en">
@@ -269,7 +269,7 @@
                     src="./images/lab.jpg"
                     alt="logo-lab"/>
                   </picture>
-                  <p class="overlay"></p>
+                  <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
                 <div class="product-card">
                   <h2 class="portfolio-titles-list" lang="en">Проєкт LAB</h2>
@@ -288,7 +288,7 @@
                     src="./images/growing-busines.jpg"
                     alt="application-on-device"/>
                   </picture> 
-                  <p class="overlay"></p>
+                  <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
                 <div class="product-card">
                   <h2 class="portfolio-titles-list" lang="en">
@@ -302,9 +302,9 @@
         </div>
       </section>
     </main>
-    <!-- <footer class="page-footer">
-      <div class="container page-footer-main">
-        <div class="page-footer">
+    <footer class="page-footer">
+      <div class="container page-footer__main">
+        <div class="page-footer__wrapper">
           <a class="link footer-logo-link block" href="index.html">
             <span class="logo-first-color">Web</span>Studio</a
           >
@@ -393,12 +393,13 @@
           <p class="footer-header">Підпишіться на розсилку</p>
           <form class="footer-subscribe">
             <label class="footer-form-label">
-              <input
+              <span class="footer_input-margin">
+                <input
                 type="email"
                 name="email"
                 placeholder="E-mail"
                 class="footer-form-input"
-              />
+              /></span>
             </label>
             <button type="submit" class="button footer-button-wrapper">
               Підписатися
@@ -409,7 +410,13 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <script src="./js/mobile-menu.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

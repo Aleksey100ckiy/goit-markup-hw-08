@@ -43,6 +43,7 @@
         color:var(--titles-colour);
         margin-bottom: 10px;}
 
+
 @media screen and (min-width: 768px) and (max-width:1199px) {
     .members{
         display: flex;
@@ -60,10 +61,10 @@
         &:last-child{
         margin-bottom: 30px;
         }
-    }}
+    }
     .title-third-row {
         text-align: inherit;
-    }
+    }}
 
     @media screen and (min-width: 1200px) {
         .members {

@@ -20,6 +20,11 @@
     .logo-first-color{
     color:var(--logo-button-color);
     } 
+    .page-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -36,18 +41,14 @@
         padding-top: 16px;
         padding-bottom: 16px;
         }
+    
 }
 
-@media screen and (min-width: 480px) {}
 
-
-.page-header__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 @media screen and (min-width: 768px) {
+    .logo-site{
+    margin-right: 88px;}
     .site-nav {
         display: block;}
     .header-nav {
@@ -61,7 +62,7 @@
         display: flex;
         flex-direction: column;
         margin-left: auto;
-        gap: 50px;}
+        gap: 10px;}
 
     .site-nav .site-nav__item{
         padding-top: 26px;
@@ -69,12 +70,12 @@
     .site-nav .site-nav__item + .site-nav__item{
             margin-left: 50px;
         } 
-    .header-nav{
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        gap: 10px;
-        } 
+    // .header-nav{
+    //     display: flex;
+    //     flex-direction: column;
+    //     margin-left: auto;
+    //     gap: 10px;
+    //     } 
     .site-nav{
         display: flex;
         }
@@ -90,9 +91,9 @@
         &:focus {
         color: var(--logo-button-color);
         }}
-    .site-nav .site-nav__item{
-        margin-left: 50px;
-        }
+    // .site-nav .site-nav__item{
+    //     margin-left: 50px;
+    //     }
     .site-nav__item{
         position: relative;
         }
@@ -134,6 +135,7 @@
     .link:hover .nav-icon,
     .link:focus .nav-icon{
         fill: var(--logo-button-color);}
+    .site-nav__item{margin-left: 0;}
     .navig{
         display: flex;
         flex-direction: row;
@@ -143,7 +145,15 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;}
+        align-items: center;
+        gap: 53px;}
+    .site-nav .site-nav__item{
+        padding-top: 34px;
+        padding-bottom: 34px;
+        }
+    .logo-site {
+        margin-right: 93px;
+    }
 }
 
 
@@ -159,10 +169,7 @@
 //     }
     
     
-//     .site-nav .site-nav__item{
-//         padding-top: 34px;
-//         padding-bottom: 34px;
-//     } 
+    
     
    
     
