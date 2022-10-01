@@ -123,6 +123,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .benefits{
         display: flex;
         flex-direction: row;
+        align-items: baseline;
         flex-wrap: wrap;
         gap: 30px;
     }

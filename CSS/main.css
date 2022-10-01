@@ -613,6 +613,7 @@ a {
   .benefits {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
     flex-wrap: wrap;
     gap: 30px;
   }
@@ -1357,7 +1358,6 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .portfolio-button-list {
-    margin-top: 94px;
     margin-bottom: 34px;
   }
 }/*# sourceMappingURL=main.css.map */
