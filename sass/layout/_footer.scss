@@ -123,6 +123,7 @@
     justify-content: space-around;
     row-gap: 0;
     gap: 60px;
+    align-items: baseline;
 
 }
 // .page-footer__wrapper{
@@ -130,8 +131,6 @@
 // }
 }
 @media screen and (min-width: 1200px) {
-    .page-footer__main {
-        align-items: baseline;}
         
     .footer-links-list>li:not(:last-child){
         margin-bottom: 9px;
